@@ -60,6 +60,9 @@
 	<div class="container clear">
 		<div class="site-branding">
 			<div class="site-title">
+                            <div>
+                                <img style="border-radius: 75%;border:5px solid;" src="http://www.pelambres.es/monta-a/wp-content/uploads/2018/08/logo.png"/>
+                            </div>
 				<?php bloginfo( 'name' ); ?>
 			</div>
 			<div class="site-description">

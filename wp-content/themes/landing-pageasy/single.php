@@ -11,7 +11,7 @@ $landing_pageasy_single_tags_section = get_theme_mod('landing_pageasy_single_tag
 $landing_pageasy_authorbox_section = get_theme_mod('landing_pageasy_authorbox_section', '1');
 $landing_pageasy_relatedposts_section = get_theme_mod('landing_pageasy_relatedposts_section', '1');
 
-get_header(); ?>
+get_header(); /*?>
 
 <div id="page" class="single">
 	<div class="content">
@@ -76,7 +76,7 @@ get_header(); ?>
 									<?php } ?>
 								</article><!--.post.excerpt-->
 								<?php $pexcerpt++;?>
-								<?php } echo '</div></div>'; }} wp_reset_postdata(); */?>
+								<?php } echo '</div></div>'; }} wp_reset_postdata(); ?>
 								<!-- End Related Posts -->
 								<?php }?>  
 								<?php if($landing_pageasy_authorbox_section == '1') { ?>
@@ -100,4 +100,4 @@ get_header(); ?>
 				<!-- End Sidebar -->
 			</div>
 		</div>
-		<?php get_footer(); ?>
+		<?php*/ get_footer(); ?>

@@ -712,7 +712,7 @@ a#pull {
     width: 68.58%;
     max-width: 720px;
     float: left;
-    margin-bottom: 30px;
+    /*margin-bottom: 30px;*/
 }
 .woocommerce .article {
     background: #fff;

@@ -74,7 +74,7 @@ get_header(); ?>
 									
 									</a>
 									<?php } ?>
-								</article><!--.post.excerpt-->
+								</article>
 								<?php $pexcerpt++;?>
 								<?php } echo '</div></div>-->'; }} wp_reset_postdata(); ?>
 								<!-- End Related Posts -->

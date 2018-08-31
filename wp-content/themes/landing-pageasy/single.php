@@ -81,12 +81,12 @@ get_header(); ?>
 								<?php }?>  
 								<?php if($landing_pageasy_authorbox_section == '1') { ?>
 								<!-- Start Author Box -->
-								<div class="postauthor">
+								<!--<div class="postauthor">
 									<h4><?php _e('About The Author', 'landing-pageasy'); ?></h4>
 									<?php if(function_exists('get_avatar')) { echo get_avatar( get_the_author_meta('email'), '85' );  } ?>
 									<h5><?php the_author(); ?></h5>
 									<p><?php the_author_meta('description') ?></p>
-								</div>
+								</div>-->
 								<!-- End Author Box -->
 								<?php }?>  
 								<?php comments_template( '', true ); ?>

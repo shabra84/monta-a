@@ -60,10 +60,17 @@
 	<div class="container clear">
 		<div class="site-branding">
 			<div class="site-title">
-                            <div>
-                                <img style="border-radius: 75%;border:5px solid;" src="http://www.pelambres.es/monta-a/wp-content/uploads/2018/08/logo.png"/>
+                            <div id="logo">
+                                V
                             </div>
 				<?php bloginfo( 'name' ); ?>
+                            <div id="social">
+                                
+                                <i class="fas fa-home"></i>
+                                <i class="fab fa-facebook-f"></i>
+                                <i class="fas fa-envelope"></i>
+                                
+                            </div>
 			</div>
 			<div class="site-description">
 				<?php bloginfo( 'description' ); ?>

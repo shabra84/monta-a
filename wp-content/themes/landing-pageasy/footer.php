@@ -39,7 +39,7 @@
 				<?php echo '&copy; '.date_i18n(__('Y','landing-pageasy')); ?> <?php bloginfo( 'name' ); ?>
 				<!-- Delete below lines to remove copyright from footer -->
 				<span class="footer-info-right">
-					<?php echo __(' | WordPress Theme by', 'landing-pageasy') ?> <a href="<?php echo esc_url('https://superbthemes.com/', 'landing-pageasy'); ?>"><?php echo __(' Superb Themes', 'landing-pageasy') ?></a>
+					<!--<?php echo __(' | WordPress Theme by', 'landing-pageasy') ?> <a href="<?php echo esc_url('https://superbthemes.com/', 'landing-pageasy'); ?>"><?php echo __(' Superb Themes', 'landing-pageasy') ?></a>-->
 				</span>
 				<!-- Delete above lines to remove copyright from footer -->
 			</span>

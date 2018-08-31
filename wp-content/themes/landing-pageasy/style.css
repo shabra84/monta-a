@@ -2492,7 +2492,7 @@ footer .featured-thumbnail .latestPost-review-wrapper {
 footer {
     position: relative;
     overflow: hidden;
-    background: #151515;
+    background: #0dd9a0;
     clear: both;
     margin-top: 20px;
     display: inline-block;
@@ -3102,4 +3102,18 @@ img.custom-logo {
         max-width: 100%;
         width: 100%;
     }
+}
+
+/* Añado logo para todas las vistas*/
+#logo {
+    border: 5px solid;
+    width: 6%;
+    border-radius: 75%;
+    margin: 0 auto;
+    background: #00d79b;
+    font-size: 40px;
+}
+
+#social {
+    font-size: 22px;
 }

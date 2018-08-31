@@ -34,15 +34,15 @@
 		<?php endif; ?>
 		<a href="#" id="pull" class="toggle-mobile-menu"><?php _e('Menu', 'landing-pageasy'); ?></a>
 		<div class="container clear">
-			<nav id="navigation" class="primary-navigation mobile-menu-wrapper" role="navigation">
+			<!--<nav id="navigation" class="primary-navigation mobile-menu-wrapper" role="navigation">
 				<?php if (has_custom_logo()) { ?>
 				<span id="logo" class="image-logo" itemprop="headline">
 					<?php the_custom_logo(); ?>
-				</span><!-- END #logo -->
+				</span>
 				<?php } else { ?>
 				<span class="site-logo" itemprop="headline">
 					<a href="<?php echo esc_url(home_url()); ?>"><?php bloginfo( 'name' ); ?></a>
-				</span><!-- END #logo -->
+				</span>
 				<?php } ?>
 
 
@@ -53,7 +53,7 @@
 					<?php wp_list_categories('title_li='); ?>
 				</ul>
 				<?php } ?>
-			</nav><!-- #site-navigation -->
+			</nav>-->
 		</div>
 	</div>            
 

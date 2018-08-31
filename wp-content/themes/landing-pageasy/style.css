@@ -1056,13 +1056,17 @@ a:active {
     padding: 140px 10px 165px 10px;
     text-align:center;
 }
+
 .site-branding .site-title {
     font-weight: 500;
-    margin-top: 0;
+    margin-top: -4%;
     margin-bottom: 0;
-    font-size: 63px;
-    color:#fff;
-    line-height:150%;
+    font-size: 226%;
+    color: #fff;
+    line-height: 150%;
+    font-family: verdana;
+    text-shadow: 2px 2px #0096883b;
+    font-weight: bolder;
 }
 .site-branding .fa {
     color: #fab526;

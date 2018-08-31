@@ -494,7 +494,7 @@ textarea {
 }
 #page,
 .container {
-    max-width: 1050px;
+    max-width: 100%;
     min-width: 240px;
     overflow: visible;
     margin: 0 auto;

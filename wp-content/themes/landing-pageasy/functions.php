@@ -660,7 +660,7 @@ if ( ! function_exists( 'landing_pageasy_archive_post' ) ) {
               <?php echo landing_pageasy_excerpt(50); ?>...
             </div>
 
-            <a href="<?php the_permalink() ?>" title="<?php the_title_attribute(); ?>" class="read-more"><?php _e( 'Read More', 'landing-pageasy' ); ?></a>
+            <a href="<?php the_permalink() ?>" title="<?php the_title_attribute(); ?>" class="read-more"><?php _e( 'Leer más', 'landing-pageasy' ); ?></a>
 
           <?php else : ?>
           <?php if (landing_pageasy_post_has_moretag()) : ?>

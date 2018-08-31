@@ -11,7 +11,7 @@ if ( post_password_required() ) { ?>
 <!-- You can start editing here. -->
 <?php if ( have_comments() ) : ?>
 	<div id="comments">
-		<div class="total-comments"><span><?php comments_number(__('No Comments','landing-pageasy'), __('One Comment','landing-pageasy'),  __('% Comments','landing-pageasy') );?></span></div>
+		<div class="total-comments"><span><?php comments_number(__('Sin comentarios','landing-pageasy'), __('Un comentario','landing-pageasy'),  __('% Comentarios','landing-pageasy') );?></span></div>
 		<ol class="commentlist">
 			<div class="navigation">
 				<div class="alignleft"><?php previous_comments_link() ?></div>
@@ -33,9 +33,9 @@ if ( post_password_required() ) { ?>
 	<div id="commentsAdd">
 		<div id="respond" class="box m-t-6">
 			<?php global $aria_req; $comments_args = array(
-				'title_reply'=>'<h4><span>'.__('Add a Comment','landing-pageasy').'</span></h4></h4>',
-				'label_submit' => __('Add Comment','landing-pageasy'),
-				'comment_field' => '<p class="comment-form-comment">'.'<textarea id="comment" name="comment" cols="45" rows="5" aria-required="true">Comment</textarea></p>',
+				'title_reply'=>'<h4><span>'.__('Añadir un comentarios','landing-pageasy').'</span></h4></h4>',
+				'label_submit' => __('Añadir un comentario','landing-pageasy'),
+				'comment_field' => '<p class="comment-form-comment">'.'<textarea id="comment" name="comment" cols="45" rows="5" aria-required="true">Comentarios</textarea></p>',
 				'fields' => apply_filters( 'comment_form_default_fields',
 					array(
 					'author' => '<p class="comment-form-author">' 

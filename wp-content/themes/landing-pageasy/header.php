@@ -24,7 +24,7 @@
 		<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'landing-pageasy' ); ?></a>
 		<header id="site-header" role="banner">
 			<?php if ( get_theme_mod( 'toggle_header_frontpage' ) == '' ) : ?>
-			<div class="primary-navigation header-activated">
+			<!--<div class="primary-navigation header-activated">
 			<?php else : ?>
 			<?php if ( is_front_page() ) : ?>
 			<div class="primary-navigation header-activated">
@@ -53,9 +53,9 @@
 					<?php wp_list_categories('title_li='); ?>
 				</ul>
 				<?php } ?>
-			</nav>-->
+			</nav>
 		</div>
-	</div>            
+	</div>  -->          
 
 	<div class="container clear">
 		<div class="site-branding">

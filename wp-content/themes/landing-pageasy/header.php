@@ -22,7 +22,7 @@
 <body <?php body_class(); ?>>
 	<div class="main-container">
 		<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'landing-pageasy' ); ?></a>
-		<header id="site-header" role="banner">
+		<header id="site-header" role="banner">[clean-login]
 			<?php if ( get_theme_mod( 'toggle_header_frontpage' ) == '' ) : ?>
 			<!--<div class="primary-navigation header-activated">
 			<?php else : ?>

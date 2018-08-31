@@ -53,9 +53,9 @@ get_header(); ?>
 							'showposts'=> 3,
 							'orderby' => 'rand' );
 						$my_query = new wp_query( $args ); if( $my_query->have_posts() ) {
-							/*echo '<div class="related-posts"><div class="postauthor-top"><h3>'.__('Related Posts', 'landing-pageasy').'</h3></div><div class="related-posts-wrapper">';
+							echo '<div class="related-posts"><div class="postauthor-top"><h3>'.__('Related Posts', 'landing-pageasy').'</h3></div><div class="related-posts-wrapper">';
 							$pexcerpt=1; $j = 0; $counter = 0; 
-							while( $my_query->have_posts() ) { 
+							/*while( $my_query->have_posts() ) { 
 								$my_query->the_post();?>
 								<article class="post excerpt  <?php echo (++$j % 3== 0) ? 'last' : ''; ?>">
 									<?php if ( has_post_thumbnail() ) { ?>
@@ -76,7 +76,7 @@ get_header(); ?>
 									<?php } ?>
 								</article><!--.post.excerpt-->
 								<?php $pexcerpt++;?>
-								<?php } echo '</div></div>'; }} wp_reset_postdata(); ?>
+								<?php } echo '</div></div>'; }} wp_reset_postdata(); */?>
 								<!-- End Related Posts -->
 								<?php }?>  
 								<?php if($landing_pageasy_authorbox_section == '1') { ?>
@@ -92,7 +92,7 @@ get_header(); ?>
 								<?php comments_template( '', true ); ?>
 							</div>
 						</div>
-					<?php endwhile;*/ ?>
+					<?php endwhile; ?>
 				</article>
 				<!-- End Article -->
 				<!-- Start Sidebar -->

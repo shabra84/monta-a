@@ -2,11 +2,11 @@
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /clubmontania/
+RewriteBase /monta-a/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /clubmontania/index.php [L]
+RewriteRule . /monta-a/index.php [L]
 </IfModule>
 
 # END WordPress
